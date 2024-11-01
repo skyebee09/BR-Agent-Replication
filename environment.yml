@@ -1,0 +1,19 @@
+name: cs6250-project
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10 
+  - pytorch=2.0
+  - torchvision
+  # - cudatoolkit>=9.2    # macOS users should comment this out for CPU only or build from source
+  - scikit-learn
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - pytest
+  - pip
+  - pip:
+      - delayed-assert
